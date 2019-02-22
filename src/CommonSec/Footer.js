@@ -10,8 +10,8 @@ export default class FooterSec extends Component{
                         <h5 className="heading5">Follow us</h5>
                         <ul className="socialIcon">
                             <li tooltip="Find Us on Google Plus"><a href="https://plus.google.com/111154228660835588284/posts" target="_blank" rel="noopener noreferrer"><span className="fa fa-google"></span></a></li>
-                            <li tooltip="Find Us on Facebook"><a href="https://www.facebook.com/IamRohitAzad" target="_blank" rel="noopener noreferrer"><span className="fa fa-facebook"></span></a></li>
-                            <li tooltip="Find Us on Twitter"><a target="_blank"  rel="noopener noreferrer" href="https://twitter.com/iamrohitazad"><span className="fa fa-twitter"></span></a></li>
+                            <li tooltip="Find Us on Facebook"><a href="https://www.facebook.com/rohitazadmalik" target="_blank" rel="noopener noreferrer"><span className="fa fa-facebook"></span></a></li>
+                            <li tooltip="Find Us on Twitter"><a target="_blank"  rel="noopener noreferrer" href="https://twitter.com/rohitazad"><span className="fa fa-twitter"></span></a></li>
                             <li tooltip="Find Us on Linkedin"><a target="_blank"  rel="noopener noreferrer" href="http://in.linkedin.com/in/rohitazad"><span className="fa fa-linkedin"></span></a></li>
                             <li tooltip="Find Us on StackOverflow"><a target="_blank"  rel="noopener noreferrer" href="http://stackoverflow.com/users/1365428/rohit-azad"><span className="fa fa-stack-overflow"></span></a></li>
                             <li tooltip="Find Us on GitHub"><a target="_blank" rel="noopener noreferrer" href="https://github.com/rohitazad"><span className="fa fa-github-square"></span></a></li>

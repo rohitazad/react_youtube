@@ -2,13 +2,16 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rohitazad.github.io/react_youtube/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5",
+    "react-share": "^2.4.0",
     "reactstrap": "^7.1.0",
     "youtube-search": "^1.1.4"
   },
@@ -16,6 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

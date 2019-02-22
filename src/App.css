@@ -180,6 +180,34 @@ body{
 .crop {
   overflow: hidden;
 }
+
+.shareItem, .shareItem > li{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.shareItem > li {
+  display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 20px;
+}
+.shareItem {
+  background: rgba(0,0,0,0.8);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.shareItem > li.share-text{
+  cursor: default;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 5px;
+}
 @media screen 
   and (min-width: 200px) 
   and (max-width: 650px)  { 
